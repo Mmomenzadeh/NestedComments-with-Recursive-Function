@@ -1,0 +1,13 @@
+{
+  "name": "nestedcomments-with-recursive-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch" : "sass ./assets/style/sass/style.scss  ./assets/style/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
