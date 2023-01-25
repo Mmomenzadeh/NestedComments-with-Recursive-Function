@@ -1,3 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  font-family: "Comfortaa", cursive;
+  background-color: salmon;
+}
+
+.container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.container h1 {
+  color: #555;
+  font-size: 40px;
+  font-weight: 400;
+}
+.container .comments-container {
+  width: 700px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.container .comments-container ul:nth-child(1) {
+  padding: 0;
+}
+.container .comments-container ul {
+  padding: 0 0 0 20px;
+}
+.container .comments-container ul li {
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1333333333);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+.container .comments-container ul li h4 {
+  margin-bottom: 5px;
+  color: #444;
+  font-weight: bolder;
+}
+.container .comments-container ul li p {
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5333333333);
+}
+.container .comments-container ul li ul li {
+  background-color: rgba(255, 255, 255, 0.3333333333);
+}
 
 /*# sourceMappingURL=style.css.map */
